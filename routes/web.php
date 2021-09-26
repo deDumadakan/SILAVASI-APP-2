@@ -20,3 +20,5 @@ use App\Http\Controllers;
 Route::resource('screening', ScreeningController::class);
 Route::resource('vaksin', VaksinController::class);
 
+Route::resource('dataVaksin', dataVaksinController::class);
+
